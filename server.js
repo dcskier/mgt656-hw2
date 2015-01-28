@@ -6,7 +6,7 @@ app.get('/', function(request, response){
 });
 
 app.get('/powerfulllama', function(request, response){
-    response.send('Hello MGT-656! See nickname.');
+    response.send('powerful llama');
 });
 
 app.listen(process.env.PORT || 4000);
